@@ -6,9 +6,9 @@
 }
 
 :root {
-  --primary-color: #1e1e1e; /* Dark Gray */
-  --secondary-color: #292929; /* Slightly lighter dark gray */
-  --accent-color: #FFD700; /* Gold */
+  --primary-color: #090909; /* Black */
+  --secondary-color: #0d0d0d; /* Dark Gray */
+  --accent-color: #00ff00; /* Green */
 }
 
 body {
@@ -66,7 +66,7 @@ body {
 }
 
 .search-container button {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   background-color: var(--accent-color);
   border-radius: 0.3em;
 }
@@ -122,7 +122,7 @@ body {
 
 .temp-container .temp {
   font-weight: 300;
-  color: var(--secondary-color);
+  color: greenyellow; 
 }
 
 .msg {
