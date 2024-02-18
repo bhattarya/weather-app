@@ -27,8 +27,8 @@ let getWeather = () => {
         console.log(data.main.temp_max);
         
         let temperature = Math.round(data.main.temp);
-let minTemperature = Math.round(data.main.temp_min);
-let maxTemperature = Math.round(data.main.temp_max);
+        let minTemperature = Math.round(data.main.temp_min);
+        let maxTemperature = Math.round(data.main.temp_max);
 
 result.innerHTML = `
 <h2>${data.name}</h2>
